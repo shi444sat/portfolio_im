@@ -36,7 +36,14 @@ export const metadata: Metadata = {
     "Virtual Academy",
   ],
   authors: [{ name: "Shivesh Kumar Satyam", url: "https://github.com/shi444sat" }],
-  metadataBase: new URL("https://shiveshsatyam.dev"),
+  metadataBase: new URL("https://shiveshsatyam.in"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "Shivesh Kumar Satyam — IIT Madras BS Data Science & Systems Engineer",
     description:
