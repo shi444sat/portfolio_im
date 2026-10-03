@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     "React Developer",
     "Koshi Competitive English School",
     "Safe Shifting",
-    "Virtual Academy",
   ],
   authors: [{ name: "Shivesh Kumar Satyam", url: "https://github.com/shi444sat" }],
   metadataBase: new URL("https://shiveshsatyam.in"),

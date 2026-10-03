@@ -214,7 +214,7 @@ export function About() {
                         &gt; Stack: React, JavaScript, NMAP, Burp Suite, ESP-32, Pico
                       </p>
                       <p className="text-zinc-400">
-                        &gt; Work: Koshi English School, Safe Shifting, Virtual Academy
+                        &gt; Work: Koshi English School, Safe Shifting
                       </p>
                       <p className="text-emerald-400 flex items-center gap-1.5">
                         <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 animate-ping" />

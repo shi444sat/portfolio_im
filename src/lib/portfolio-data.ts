@@ -85,7 +85,7 @@ export const PERSONAL_INFO = {
 export const TELEMETRY_METRICS = [
   { label: "Institution", value: "IIT Madras", note: "B.S. in Data Science (1st Year)" },
   { label: "Core Stack", value: "Web + Security", note: "React, JavaScript, Linux, Python" },
-  { label: "Deployments", value: "3 Live Sites", note: "Koshi School, SafeShifting, VirtualAcademy" },
+  { label: "Deployments", value: "2 Live Sites", note: "Koshi School, SafeShifting" },
   { label: "Availability", value: "Client Ready", note: "Freelance & Web Engineering" },
 ];
 
@@ -143,22 +143,6 @@ export const WORK_ITEMS: WorkItem[] = [
     technologies: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "REST APIs"],
     liveUrl: "https://safeshifting.in",
   },
-  {
-    id: "virtual-academy",
-    role: "Full-Stack Web Developer",
-    clientOrCompany: "Virtual Academy Group",
-    period: "Client Project // Production",
-    category: "Client Work",
-    summary: "Academic coaching and test-preparation web portal featuring batch schedules, syllabus roadmaps, and student enrollment systems.",
-    problemContext: "An educational coaching academy required a dynamic online platform to present competitive exam courses, upcoming classroom batches, and direct registration channels for prospective candidates.",
-    achievements: [
-      "Crafted an engaging, informative academic interface highlighting course directories, batch schedules, and faculty profiles.",
-      "Integrated robust applicant inquiry forms with structured validation for incoming candidate leads.",
-      "Implemented responsive layouts and fluid interactions to deliver an intuitive experience across mobile and desktop devices.",
-    ],
-    technologies: ["React", "JavaScript", "HTML5", "CSS3", "Node.js", "Responsive UI"],
-    liveUrl: "https://virtualacademygroup.com",
-  },
 ];
 
 export const PROJECT_ITEMS: ProjectItem[] = [
@@ -180,16 +164,6 @@ export const PROJECT_ITEMS: ProjectItem[] = [
     description: "Production web platform built for Safe Shifting Logistics, providing domestic and commercial relocation services, detailed moving guides, instant quotation requests, and direct customer support integration.",
     technologies: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
     liveUrl: "https://safeshifting.in",
-    featured: true,
-  },
-  {
-    id: "virtual-academy-project",
-    title: "Virtual Academy Coaching Web Portal",
-    category: "Full-Stack Web",
-    tagline: "Interactive academic portal showcasing batch schedules & student registration",
-    description: "Digital web application engineered for Virtual Academy Group to facilitate competitive exam preparation, course syllabus overviews, faculty highlights, and streamlined online student admission inquiries.",
-    technologies: ["React", "JavaScript", "HTML5", "CSS3", "Node.js"],
-    liveUrl: "https://virtualacademygroup.com",
     featured: true,
   },
   {
